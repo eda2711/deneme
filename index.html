@@ -1,413 +1,390 @@
 <!DOCTYPE html>
-<html lang="en">
-    
+<html  >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cute Tetris Game</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-        
-        .pulse {
-            animation: pulse 1.5s infinite;
-        }
-        
-        .cell {
-            border-radius: 4px;
-            box-shadow: inset 0 0 5px rgba(255,255,255,0.5);
-        }
-        
-        .game-over {
-            background-color: rgba(255, 105, 180, 0.8);
-            transition: all 0.3s ease;
-        }
-        
-        .tetris-board {
-            box-shadow: 0 0 20px rgba(255, 192, 203, 0.7);
-            border: 4px solid #ff69b4;
-            border-radius: 10px;
-        }
-    </style>
+  <!-- Site made with Mobirise Website Builder v6.0.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v6.0.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/shop3.jpg" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Jep9CZ"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Jep9CZ" type="text/css">
+
+  
+  
+  
 </head>
-<body class="bg-pink-100 min-h-screen flex flex-col items-center justify-center p-4 font-comic">
-    <div class="text-center mb-6">
-        <h1 class="text-5xl font-bold text-pink-600 mb-2">Cute Tetris</h1>
-        <p class="text-xl text-purple-600">Match the blocks and have fun!</p>
-    </div>
-    
-    <div class="flex flex-col md:flex-row items-center gap-8">
-        <div class="relative">
-            <div id="board" class="tetris-board bg-white grid grid-cols-10 gap-0.5 p-1.5"></div>
-            <div id="game-over" class="absolute inset-0 flex flex-col items-center justify-center game-over hidden">
-                <h2 class="text-4xl font-bold text-white mb-4">Game Over!</h2>
-                <button id="restart-btn" class="bg-white text-pink-600 px-6 py-2 rounded-full font-bold text-xl hover:bg-pink-100 transition">
-                    Play Again
-                </button>
-            </div>
-        </div>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu5 cid-uIJ2PfbfpT" once="menu" id="menu05-3">
+	
+
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-logo">
+					<a href="https://mobiri.se">
+						<img src="assets/images/shop3.jpg" alt="Mobirise Website Builder" style="height: 4.3rem;">
+					</a>
+				</span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="https://mobiri.se">Mobirise</a></span>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="https://mobiri.se">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="https://mobiri.se" aria-expanded="false">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="https://mobiri.se">Contacts</a>
+					</li>
+				</ul>
+				<div class="navbar-buttons mbr-section-btn">
+					<a class="btn btn-primary display-4" href="https://mobiri.se"> Start Now!</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="header16 cid-uIJ2PQSvyQ mbr-fullscreen mbr-parallax-background" id="header17-4">
+  
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong><br>EDONNA</strong></h1>
         
-        <div class="flex flex-col gap-6">
-            <div class="bg-white p-4 rounded-xl shadow-lg">
-                <h3 class="text-xl font-bold text-purple-600 mb-2">Next Piece:</h3>
-                <div id="next-piece" class="grid grid-cols-4 gap-1 w-24 h-24"></div>
-            </div>
-            
-            <div class="bg-white p-4 rounded-xl shadow-lg">
-                <h3 class="text-xl font-bold text-purple-600 mb-2">Score:</h3>
-                <p id="score" class="text-3xl font-bold text-pink-500">0</p>
-            </div>
-            
-            <div class="bg-white p-4 rounded-xl shadow-lg">
-                <h3 class="text-xl font-bold text-purple-600 mb-2">Level:</h3>
-                <p id="level" class="text-3xl font-bold text-pink-500">1</p>
-            </div>
-            
-            <div class="bg-white p-4 rounded-xl shadow-lg">
-                <h3 class="text-xl font-bold text-purple-600 mb-2">Controls:</h3>
-                <ul class="text-sm text-gray-700">
-                    <li class="mb-1">← → : Move</li>
-                    <li class="mb-1">↑ : Rotate</li>
-                    <li class="mb-1">↓ : Soft Drop</li>
-                    <li>Space : Hard Drop</li>
-                </ul>
-            </div>
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Full-screen block with parallax image background and flexible
+          configuration, free vertical and horizontal
+          content alignment.&nbsp;</p>
+        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="https://mobiri.se">Learn More</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="header13 cid-uIJ2RLrsZd" id="header13-5">
+  
+
+  
+  
+
+  <div class="align-center container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 mb-5 content-head">
+        <h1 class="mbr-section-title mbr-fonts-style display-1">
+          <strong>Intro with image</strong>
+        </h1>
+        <p class="mbr-text mbr-fonts-style mt-4 display-7">
+          Intro with a picture at the bottom. Great for pro-coders for fast
+          prototyping and small customers' projects.
+        </p>
+        <div class="mbr-section-btn mt-4">
+          <a class="btn btn-primary display-7" href="https://mobiri.se">Create Free Website!</a>
         </div>
+      </div>
     </div>
-    
-    <div class="mt-8 text-center">
-        <button id="start-btn" class="pulse bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full text-xl transition">
-            Start Game
-        </button>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <img src="assets/images/6.jpg" alt="Mobirise Website Builder" title="">
+      </div>
     </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Game constants
-            const COLS = 10;
-            const ROWS = 20;
-            const BLOCK_SIZE = 30;
-            const COLORS = [
-                null,
-                '#FF9FF3', // Pink
-                '#FECA57', // Yellow
-                '#FF6B6B', // Red
-                '#48DBFB', // Blue
-                '#1DD1A1', // Green
-                '#F368E0', // Purple
-                '#FF9F43'  // Orange
-            ];
-            
-            // Game variables
-            let board = createBoard();
-            let score = 0;
-            let level = 1;
-            let gameOver = false;
-            let dropCounter = 0;
-            let dropInterval = 1000;
-            let lastTime = 0;
-            let animationId;
-            let isPlaying = false;
-            
-            // Current piece
-            let piece = {
-                pos: {x: 0, y: 0},
-                shape: null,
-                nextShape: null
-            };
-            
-            // Tetromino shapes
-            const SHAPES = [
-                null,
-                [[0, 0, 0, 0], [1, 1, 1, 1], [0, 0, 0, 0], [0, 0, 0, 0]], // I
-                [[2, 0, 0], [2, 2, 2], [0, 0, 0]],                         // J
-                [[0, 0, 3], [3, 3, 3], [0, 0, 0]],                         // L
-                [[4, 4], [4, 4]],                                          // O
-                [[0, 5, 5], [5, 5, 0], [0, 0, 0]],                         // S
-                [[0, 6, 0], [6, 6, 6], [0, 0, 0]],                         // T
-                [[7, 7, 0], [0, 7, 7], [0, 0, 0]]                          // Z
-            ];
-            
-            // DOM elements
-            const boardElement = document.getElementById('board');
-            const nextPieceElement = document.getElementById('next-piece');
-            const scoreElement = document.getElementById('score');
-            const levelElement = document.getElementById('level');
-            const gameOverElement = document.getElementById('game-over');
-            const startButton = document.getElementById('start-btn');
-            const restartButton = document.getElementById('restart-btn');
-            
-            // Initialize the board display
-            function createBoard() {
-                return Array.from(Array(ROWS), () => Array(COLS).fill(0));
-            }
-            
-            // Draw the board
-            function drawBoard() {
-                boardElement.innerHTML = '';
-                board.forEach((row, y) => {
-                    row.forEach((value, x) => {
-                        const cell = document.createElement('div');
-                        cell.className = `cell w-7 h-7 ${value ? 'border-2 border-white' : 'bg-gray-100'}`;
-                        cell.style.backgroundColor = value ? COLORS[value] : '';
-                        boardElement.appendChild(cell);
-                    });
-                });
-            }
-            
-            // Draw the current piece
-            function drawPiece() {
-                piece.shape.forEach((row, y) => {
-                    row.forEach((value, x) => {
-                        if (value) {
-                            const cell = document.createElement('div');
-                            cell.className = `cell absolute w-7 h-7 border-2 border-white`;
-                            cell.style.backgroundColor = COLORS[value];
-                            cell.style.top = `${(piece.pos.y + y) * 28}px`;
-                            cell.style.left = `${(piece.pos.x + x) * 28}px`;
-                            boardElement.appendChild(cell);
-                        }
-                    });
-                });
-            }
-            
-            // Draw the next piece preview
-            function drawNextPiece() {
-                nextPieceElement.innerHTML = '';
-                piece.nextShape.forEach((row, y) => {
-                    row.forEach((value, x) => {
-                        const cell = document.createElement('div');
-                        cell.className = `cell w-6 h-6 ${value ? 'border-2 border-white' : 'bg-transparent'}`;
-                        cell.style.backgroundColor = value ? COLORS[value] : '';
-                        nextPieceElement.appendChild(cell);
-                    });
-                });
-            }
-            
-            // Create a new random piece
-            function createPiece() {
-                if (!piece.nextShape) {
-                    piece.nextShape = SHAPES[Math.floor(Math.random() * SHAPES.length - 1) + 1];
-                }
-                
-                piece.shape = piece.nextShape;
-                piece.nextShape = SHAPES[Math.floor(Math.random() * SHAPES.length - 1) + 1];
-                piece.pos.y = 0;
-                piece.pos.x = Math.floor(COLS / 2) - Math.floor(piece.shape[0].length / 2);
-                
-                // Check if game over
-                if (collide()) {
-                    endGame();
-                }
-                
-                drawNextPiece();
-            }
-            
-            // Check for collisions
-            function collide() {
-                for (let y = 0; y < piece.shape.length; y++) {
-                    for (let x = 0; x < piece.shape[y].length; x++) {
-                        if (piece.shape[y][x] !== 0 &&
-                            (board[y + piece.pos.y] === undefined ||
-                             board[y + piece.pos.y][x + piece.pos.x] === undefined ||
-                             board[y + piece.pos.y][x + piece.pos.x] !== 0)) {
-                            return true;
-                        }
-                    }
-                }
-                return false;
-            }
-            
-            // Rotate the piece
-            function rotate() {
-                const originalShape = piece.shape;
-                
-                // Transpose matrix
-                const rows = piece.shape.length;
-                const cols = piece.shape[0].length;
-                const newShape = Array(cols).fill().map(() => Array(rows).fill(0));
-                
-                for (let y = 0; y < rows; y++) {
-                    for (let x = 0; x < cols; x++) {
-                        newShape[x][rows - 1 - y] = piece.shape[y][x];
-                    }
-                }
-                
-                piece.shape = newShape;
-                
-                // If rotation causes collision, revert
-                if (collide()) {
-                    piece.shape = originalShape;
-                }
-            }
-            
-            // Merge the piece into the board
-            function merge() {
-                piece.shape.forEach((row, y) => {
-                    row.forEach((value, x) => {
-                        if (value) {
-                            board[y + piece.pos.y][x + piece.pos.x] = value;
-                        }
-                    });
-                });
-            }
-            
-            // Clear completed lines
-            function sweep() {
-                let linesCleared = 0;
-                
-                outer: for (let y = board.length - 1; y >= 0; y--) {
-                    for (let x = 0; x < board[y].length; x++) {
-                        if (board[y][x] === 0) {
-                            continue outer;
-                        }
-                    }
-                    
-                    // Remove the line
-                    const row = board.splice(y, 1)[0].fill(0);
-                    board.unshift(row);
-                    y++; // Check the same row again
-                    
-                    linesCleared++;
-                }
-                
-                // Update score
-                if (linesCleared > 0) {
-                    score += [0, 40, 100, 300, 1200][linesCleared] * level;
-                    scoreElement.textContent = score;
-                    
-                    // Level up every 10 lines
-                    const newLevel = Math.floor(score / 1000) + 1;
-                    if (newLevel > level) {
-                        level = newLevel;
-                        levelElement.textContent = level;
-                        dropInterval = Math.max(100, 1000 - (level * 100));
-                    }
-                }
-            }
-            
-            // Move the piece
-            function movePiece(dir) {
-                piece.pos.x += dir;
-                if (collide()) {
-                    piece.pos.x -= dir;
-                }
-            }
-            
-            // Drop the piece
-            function dropPiece() {
-                piece.pos.y++;
-                if (collide()) {
-                    piece.pos.y--;
-                    merge();
-                    createPiece();
-                    sweep();
-                }
-                dropCounter = 0;
-            }
-            
-            // Hard drop
-            function hardDrop() {
-                while (!collide()) {
-                    piece.pos.y++;
-                }
-                piece.pos.y--;
-                merge();
-                createPiece();
-                sweep();
-                dropCounter = 0;
-            }
-            
-            // Game loop
-            function update(time = 0) {
-                if (gameOver) return;
-                
-                const deltaTime = time - lastTime;
-                lastTime = time;
-                
-                dropCounter += deltaTime;
-                if (dropCounter > dropInterval) {
-                    dropPiece();
-                }
-                
-                drawBoard();
-                drawPiece();
-                
-                animationId = requestAnimationFrame(update);
-            }
-            
-            // Start the game
-            function startGame() {
-                if (isPlaying) return;
-                
-                board = createBoard();
-                score = 0;
-                level = 1;
-                gameOver = false;
-                dropInterval = 1000;
-                
-                scoreElement.textContent = score;
-                levelElement.textContent = level;
-                
-                createPiece();
-                createPiece(); // First call sets next piece, second sets current
-                
-                gameOverElement.classList.add('hidden');
-                startButton.classList.add('hidden');
-                
-                isPlaying = true;
-                lastTime = 0;
-                update();
-            }
-            
-            // End the game
-            function endGame() {
-                gameOver = true;
-                cancelAnimationFrame(animationId);
-                gameOverElement.classList.remove('hidden');
-                isPlaying = false;
-            }
-            
-            // Restart the game
-            function restartGame() {
-                gameOverElement.classList.add('hidden');
-                startGame();
-            }
-            
-            // Event listeners
-            document.addEventListener('keydown', event => {
-                if (!isPlaying) return;
-                
-                switch (event.keyCode) {
-                    case 37: // Left
-                        movePiece(-1);
-                        break;
-                    case 39: // Right
-                        movePiece(1);
-                        break;
-                    case 40: // Down
-                        dropPiece();
-                        break;
-                    case 38: // Up
-                        rotate();
-                        break;
-                    case 32: // Space
-                        hardDrop();
-                        break;
-                }
-            });
-            
-            startButton.addEventListener('click', startGame);
-            restartButton.addEventListener('click', restartGame);
-            
-            // Initial draw
-            drawBoard();
-            drawNextPiece();
-        });
-    </script>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="news05 cid-uIJ34gem3c" id="news05-8">
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 mb-5 content-head">
+        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+          <strong>Upcoming events with images</strong>
+        </h3>
+        
+      </div>
+    </div>
+    <div class="row justify-content-center item features-without-image mb-5 active">
+      <div class="col-12 col-lg-6">
+        <img class="w-100" src="assets/images/6.jpg" alt="Mobirise Website Builder">
+      </div>
+      <div class="col-12 col-lg item-wrapper">
+        <h5 class="mbr-card-title mbr-fonts-style mt-3 mb-3 display-5">
+          <strong>Portrait perfection workshop</strong>
+        </h5>
+        <h6 class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3 display-7">
+          July 12-13, 2025
+        </h6>
+        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+          Elevate your portrait photography to new heights. From candid street shots to controlled studio setups, you'll
+          master the art of capturing compelling portraits.
+        </p>
+        <div class="mbr-section-btn">
+          <a class="btn btn-white display-7" href="https://mobiri.se">Learn more</a>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center item features-without-image mb-5">
+      <div class="col-12 col-lg-6">
+        <img class="w-100" src="assets/images/10.jpg" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2">
+      </div>
+      <div class="col-12 col-lg item-wrapper">
+        <h5 class="mbr-card-title mbr-fonts-style mt-3 mb-3 display-5">
+          <strong>Photography Exhibition</strong>
+        </h5>
+        <h6 class="mbr-card-subtitle mbr-fonts-style mt-0 mb-3 display-7">
+          March 15, 2025
+        </h6>
+        <p class="mbr-text mbr-fonts-style mt-0 mb-3 display-7">
+          Step into a world of captivating imagery at our Photography Exhibition. Featuring the work of local artists,
+          this showcase weaves a rich tapestry of creative perspectives, capturing life's moments and emotions in
+          breathtaking detail. Immerse yourself in the beauty of visual storytelling and artistic expression.
+        </p>
+        <div class="mbr-section-btn">
+          <a class="btn btn-white display-7" href="https://mobiri.se">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features017 mbr-embla cid-uIJ2Tb8hYy" id="features017-6">
+	
+	
+	<div class="position-relative">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-12 content-head">
+					<div class="mbr-section-head mb-5">
+						<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+							<strong>Services</strong>
+						</h4>
+						<h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4 display-7">
+							To add more cards, hover on a card and click 'Add items'
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="embla" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-auto-play-interval="5" data-draggable="true">
+			<div class="embla__viewport container-fluid">
+				<div class="embla__container">
+					<div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop1.jpg" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop2.jpg" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop3.jpg" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop4.jpg" alt="Mobirise Website Builder" title="" data-slide-to="4" data-bs-slide-to="4">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop5.jpg" alt="Mobirise Website Builder" title="" data-slide-to="5" data-bs-slide-to="5">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop6.jpg" alt="Mobirise Website Builder" title="" data-slide-to="6" data-bs-slide-to="6">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+						<div class="slide-content">
+							<div class="item-img">
+								<div class="item-wrapper">
+									<img src="assets/images/shop7.jpg" alt="Mobirise Website Builder" title="" data-slide-to="7" data-bs-slide-to="7">
+								</div>
+							</div>
+							<div class="item-content">
+								<h5 class="item-title mbr-fonts-style display-5">
+									<strong>Design</strong>
+								</h5>
+								
+								<p class="mbr-text mbr-fonts-style mt-3 display-7">
+									Mobirise is an easy website builder. Just drop site elements to your page, add
+									content and style it to look the way you like.
+								</p>
+							</div>
+							<div class="mbr-section-btn item-footer mt-2">
+								<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+					<div class="slide-content">
+						<div class="item-img">
+							<div class="item-wrapper">
+								<img src="assets/images/shop0.jpg" alt="Mobirise Website Builder" title="" data-slide-to="8" data-bs-slide-to="8">
+							</div>
+						</div>
+						<div class="item-content">
+							<h5 class="item-title mbr-fonts-style display-5">
+								<strong>Design</strong>
+							</h5>
+							
+							<p class="mbr-text mbr-fonts-style mt-3 display-7">
+								Mobirise is an easy website builder. Just drop site elements to your page, add
+								content and style it to look the way you like.
+							</p>
+						</div>
+						<div class="mbr-section-btn item-footer mt-2">
+							<a href="" class="btn item-btn btn-primary display-7" target="_blank">Start Now</a>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<button class="embla__button embla__button--prev">
+				<span class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont" aria-hidden="true"></span>
+				<span class="sr-only visually-hidden visually-hidden visually-hidden">Previous</span>
+			</button>
+			<button class="embla__button embla__button--next">
+				<span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont" aria-hidden="true"></span>
+				<span class="sr-only visually-hidden visually-hidden visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-generator.html">AI Website Generator</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/embla/embla.min.js"></script>  <script src="assets/embla/script.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
 </body>
 </html>
